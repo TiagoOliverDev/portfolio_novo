@@ -33,7 +33,7 @@
   git clone git@github.com:Meri-MG/portfolio---react.git
   ```
 
-- Navigate to `cd portfolio---react`  directory.
+- Navigate to `cd portfolio_novo`  directory.
 
 - To install all the app dependencies on the command line run
 - ```
@@ -47,14 +47,14 @@
 
 ## Author
 
-:woman: **Meri Gogichashvili**
+:man: **Tiago Oliveira**
 
-- [GitHub](https://github.com/Meri-MG)
-- [LinkedIn](https://www.linkedin.com/in/meri-gogichashvili/)
+- [GitHub](https://github.com/TiagoOliverDev/)
+- [LinkedIn](https://www.linkedin.com/in/tiago-oliveira-49a2a6205/)
 
 ## 🤝 Contributing
 - Contributions, issues, and feature requests are welcome!
-- Feel free to check the [issues page](https://github.com/Meri-MG/portfolio---react/issues).
+- Feel free to check the [issues page](https://github.com/TiagoOliverDev/portfolio_novo/issues).
 
 # Show your support
 Give a ⭐ if you like this project!
