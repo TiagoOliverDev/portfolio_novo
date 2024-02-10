@@ -28,9 +28,9 @@
 
 - Choose a folder in your local machine where you want this repository to be copied
 
-- Clone this [repository](https://github.com/Meri-MG/portfolio---react) to your local machine 
+- Clone this [repository](https://github.com/TiagoOliverDev/portfolio_novo) to your local machine 
 - ```
-  git clone git@github.com:Meri-MG/portfolio---react.git
+  git clone git@github.com:TiagoOliverDev/portfolio_novo.git
   ```
 
 - Navigate to `cd portfolio_novo`  directory.
