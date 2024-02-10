@@ -11,7 +11,7 @@ const Contact = () => {
     setMessage(true);
     emailjs
       .sendForm(
-        'service_k2qawqh',
+        'service_1rkm8yk',
         'template_c6rkpn6',
         formRef.current,
         'X7K7ebhIeOy3YwHki'
@@ -29,15 +29,15 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>Entre em contato</h5>
+      <h2>Envie um e-mail</h2>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>merigogichashvili13@gmail.com</h5>
-            <a href="mailto:merigogichashvili13@gmail.com">Send a message</a>
+            <h5>paulloholiveira77@gmail.com</h5>
+            <a href="mailto:paulloholiveira77@gmail.com">Enviar mensagem</a>
           </article>
         </div>
         <form ref={formRef} onSubmit={handleSubmit}>
@@ -60,9 +60,9 @@ const Contact = () => {
             required
           ></textarea>
           <button type="submit" className="btn btn-primary">
-            Send Message
+            Enviar mensagem
           </button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+          {message && <span>Obrigado, responderei o mais rápido possível :)</span>}
         </form>
       </div>
     </section>
