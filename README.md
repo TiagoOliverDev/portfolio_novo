@@ -28,12 +28,12 @@
 
 - Choose a folder in your local machine where you want this repository to be copied
 
-- Clone this [repository](https://github.com/Meri-MG/portfolio---react) to your local machine 
+- Clone this [repository](https://github.com/TiagoOliverDev/portfolio_novo) to your local machine 
 - ```
-  git clone git@github.com:Meri-MG/portfolio---react.git
+  git clone git@github.com:TiagoOliverDev/portfolio_novo.git
   ```
 
-- Navigate to `cd portfolio---react`  directory.
+- Navigate to `cd portfolio_novo`  directory.
 
 - To install all the app dependencies on the command line run
 - ```
@@ -47,17 +47,16 @@
 
 ## Author
 
-:woman: **Meri Gogichashvili**
+:man: **Tiago Oliveira**
 
-- [GitHub](https://github.com/Meri-MG)
-- [LinkedIn](https://www.linkedin.com/in/meri-gogichashvili/)
+- [GitHub](https://github.com/TiagoOliverDev/)
+- [LinkedIn](https://www.linkedin.com/in/tiago-oliveira-49a2a6205/)
 
 ## 🤝 Contributing
 - Contributions, issues, and feature requests are welcome!
-- Feel free to check the [issues page](https://github.com/Meri-MG/portfolio---react/issues).
+- Feel free to check the [issues page](https://github.com/TiagoOliverDev/portfolio_novo/issues).
 
 # Show your support
 Give a ⭐ if you like this project!
 
-# Acknowledgments
-Thanks to [EGATOR](https://www.youtube.com/watch?v=G-Cr00UYokU&list=WL&index=55&t=1845s) tutorial!
+
