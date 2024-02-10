@@ -1,7 +1,7 @@
 # Personal-Portfolio
 > This is personal portfolio website.
 
-![Portfolio](https://raw.github.com/Meri-MG/portfolio---react/master/src/assets/port.png)
+![Portfolio](https://github.com/TiagoOliverDev/portfolio_novo/blob/main/src/assets/port.png)
 
 ## Built With
 
