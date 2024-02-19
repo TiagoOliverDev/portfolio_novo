@@ -1,8 +1,8 @@
 import React from 'react';
-import IMG1 from '../../assets/alc.png';
-import IMG2 from '../../assets/todo.png';
+import IMG1 from '../../assets/ft1.png';
+import IMG2 from '../../assets/ft2.png';
 import IMG3 from '../../assets/shelter.png';
-import IMG4 from '../../assets/fake.png';
+import IMG4 from '../../assets/print2.png';
 import IMG5 from '../../assets/news.png';
 import IMG6 from '../../assets/math.png';
 
@@ -12,32 +12,32 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: 'Adventist Learning Center',
+      title: 'Movies Test',
       img: IMG1,
       description:
-        'Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.',
-      technologies: 'Ruby on Rails | SCSS',
-      link: 'https://adventistlearningcenter-257375ab1970.herokuapp.com/',
-      github: 'https://github.com/Meri-MG/school',
+        'Movies Test is a website created in React that allows the user to search by movie, filter by genre and see the details.',
+      technologies: 'ReactJS | TMDB API | Firebase Google Authentication',
+      link: 'https://movies-test-jkno.vercel.app/',
+      github: 'https://github.com/TiagoOliverDev/Movies_Test',
     },
     {
       id: 2,
-      title: 'FakeStore',
+      title: 'Accounting web scraping',
       img: IMG4,
       description:
-        'FakeStore app that provides information about available products and their details',
-      technologies: 'React | Redux',
-      link: 'https://fakestore-metrics.netlify.app/',
-      github: 'https://github.com/Meri-MG/Fakestore---react',
+        'Web scraping done on the page https://www.contabeis.com.br/ to bring the latest accounting news of the moment.',
+      technologies: 'Python >= 3.8.10 | Playwright | BeautifulSoup | Pandas',
+      link: '#',
+      github: 'https://github.com/TiagoOliverDev/Desafio-Web-Scraping',
     },
     {
       id: 3,
-      title: 'To-Do App',
+      title: 'Br Star',
       img: IMG2,
-      description: 'User friendly app to plan your day and manage tasks',
-      technologies: 'JavaScript | Webpack',
-      link: 'https://meri-mg.github.io/To-Do-List/dist/',
-      github: 'https://github.com/Meri-MG/To-Do-List',
+      description: 'In development..',
+      technologies: 'React | Javascript',
+      link: '#',
+      github: 'https://github.com/TiagoOliverDev/BrStar_project',
     },
     {
       id: 4,
