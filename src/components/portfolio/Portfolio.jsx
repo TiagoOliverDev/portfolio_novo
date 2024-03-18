@@ -3,7 +3,7 @@ import IMG1 from '../../assets/ft1.png';
 import IMG2 from '../../assets/pontoPausa.png';
 import IMG3 from '../../assets/ft3.png';
 import IMG4 from '../../assets/print2.png';
-import IMG5 from '../../assets/news.png';
+import IMG5 from '../../assets/sistemaContabil.png';
 import IMG6 from '../../assets/math.png';
 
 import './portfolio.css';
@@ -41,6 +41,16 @@ const Portfolio = () => {
     },
     {
       id: 4,
+      title: 'Intranete contábil',
+      img: IMG5,
+      description:
+        'Intranet created for a company in the accounting sector where several process automations were created, the intranet also works with an automation/bot manager',
+      technologies: 'Python | JavaScript | Flask | BootStrap | Postgresql',
+      link: '#',
+      github: '#',
+    },
+    {
+      id: 5,
       title: 'Robotic',
       img: IMG3,
       description:
@@ -48,16 +58,6 @@ const Portfolio = () => {
       technologies: 'JavaScript | CSS | PHP',
       link: 'https://robotic.adaupsoft.com/',
       github: '#',
-    },
-    {
-      id: 5,
-      title: 'World News',
-      img: IMG5,
-      description:
-        'Fully responsive interactive website built based on Adobe XD design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/Unilab-world-news/',
-      github: 'https://github.com/Meri-MG/Unilab-world-news',
     },
     {
       id: 6,
