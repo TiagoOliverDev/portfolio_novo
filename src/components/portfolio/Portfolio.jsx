@@ -1,7 +1,7 @@
 import React from 'react';
 import IMG1 from '../../assets/ft1.png';
-import IMG2 from '../../assets/ft2.png';
-import IMG3 from '../../assets/shelter.png';
+import IMG2 from '../../assets/pontoPausa.png';
+import IMG3 from '../../assets/ft3.png';
 import IMG4 from '../../assets/print2.png';
 import IMG5 from '../../assets/news.png';
 import IMG6 from '../../assets/math.png';
@@ -32,22 +32,22 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: 'Br Star',
+      title: 'Gestor de pontos',
       img: IMG2,
-      description: 'In development..',
-      technologies: 'React | Javascript',
+      description: 'Employee points management system with dashboard and reports, with access levels for ADMIN and EMPLOYEE...',
+      technologies: 'React | Javascript | Python | Flask | Sql',
       link: '#',
-      github: 'https://github.com/TiagoOliverDev/BrStar_project',
+      github: 'https://github.com/TiagoOliverDev/frontend_control_point',
     },
     {
       id: 4,
-      title: 'Shelter',
+      title: 'Robotic',
       img: IMG3,
       description:
-        'Fully responsive interactive website built based on Figma design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
-      github: 'https://github.com/Meri-MG/shelter',
+        'Landing page to promote my project automation services.',
+      technologies: 'JavaScript | CSS | PHP',
+      link: 'https://robotic.adaupsoft.com/',
+      github: '#',
     },
     {
       id: 5,
