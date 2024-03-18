@@ -4,7 +4,7 @@ import IMG2 from '../../assets/pontoPausa.png';
 import IMG3 from '../../assets/ft3.png';
 import IMG4 from '../../assets/print2.png';
 import IMG5 from '../../assets/sistemaContabil.png';
-import IMG6 from '../../assets/math.png';
+import IMG6 from '../../assets/senac.png';
 
 import './portfolio.css';
 
@@ -51,6 +51,16 @@ const Portfolio = () => {
     },
     {
       id: 5,
+      title: 'Senac Empregabilidade',
+      img: IMG6,
+      description:
+        'Project created during internship, its focus is to bring job vacancies to students and former students of Senac RN',
+      technologies: 'C# | .Net | JavaScript | Sql server',
+      link: 'https://empregabilidade.rn.senac.br/home',
+      github: '#',
+    },
+    {
+      id: 6,
       title: 'Robotic',
       img: IMG3,
       description:
@@ -58,17 +68,7 @@ const Portfolio = () => {
       technologies: 'JavaScript | CSS | PHP',
       link: 'https://robotic.adaupsoft.com/',
       github: '#',
-    },
-    {
-      id: 6,
-      title: 'Math Resource',
-      img: IMG6,
-      description:
-        'Real-world group project which is still in progress and will provide educational platform for future young developers',
-      technologies: 'JavaScript | Scss | Python',
-      link: 'https://lukinoo.github.io/math-resource/',
-      github: 'https://github.com/lukinoo/math-resource',
-    },
+    }
   ];
 
   return (
