@@ -58,7 +58,7 @@ const Testimonials = () => {
   ];
   return (
     <section id="testmonials">
-      <h5>Feedbacks</h5>
+      <h5>Feedbacks (Ainda não integrado com linkedin, então deixei depoimentos fake por enquanto!)</h5>
       <h2>Depoimentos</h2>
       <Swiper 
         className="container testimonials__container"
