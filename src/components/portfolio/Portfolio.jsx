@@ -60,7 +60,7 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      title: 'Intranete contábil',
+      title: 'Intranet contábil',
       img: IMG5,
       description:
         'Intranet desenvolvida para empresa de contabilidade aonde o foco dela é integrar diversas automações do ramo, além de outras funcionalidades.',
