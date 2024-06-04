@@ -13,6 +13,9 @@ import IMG11 from '../../assets/extratoMensal.png'
 import IMG12 from '../../assets/reciboMensal.png'
 import IMG13 from '../../assets/provisãoFerias.png'
 import IMG14 from '../../assets/sangueSuga.png'
+import IMG15 from '../../assets/frontLogap.png'
+import IMG16 from '../../assets/projectDjango.png'
+import IMG17 from '../../assets/backLogap.png'
 
 import './portfolio.css';
 
@@ -21,6 +24,26 @@ const Portfolio = () => {
   const frontendProjects = [
     {
       id: 1,
+      title: 'Sistema de gerenciamento para setor de vendas',
+      img: IMG15,
+      description:
+        'Sistema desenvolvido com intuito de gerenciar a área de vendas de produtos.',
+      technologies: 'ReactJS | TypeScript | Jest | MUI | Taillwind | React Router Dom | Charts.js',
+      link: 'https://ps-front-logap.vercel.app/',
+      github: 'https://github.com/TiagoOliverDev/ps_front_logap',
+    },
+    {
+      id: 2,
+      title: 'Sistema de gerenciamento TODO',
+      img: IMG16,
+      description:
+        'Sistema desenvolvido com intuito de gerenciar tarefas',
+      technologies: 'Python | Django | HTML5 | Css | Unitest',
+      link: '#',
+      github: 'https://github.com/TiagoOliverDev/lizie',
+    },
+    {
+      id: 3,
       title: 'Movies Test',
       img: IMG1,
       description:
@@ -30,7 +53,7 @@ const Portfolio = () => {
       github: 'https://github.com/TiagoOliverDev/Movies_Test',
     },
     {
-      id: 2,
+      id: 4,
       title: 'Robotic',
       img: IMG3,
       description:
@@ -40,7 +63,7 @@ const Portfolio = () => {
       github: '#',
     },
     {
-      id: 3,
+      id: 5,
       title: 'Senac Empregabilidade',
       img: IMG6,
       description:
@@ -50,7 +73,7 @@ const Portfolio = () => {
       github: '#',
     },
     {
-      id: 4,
+      id: 6,
       title: 'Gestor de pontos',
       img: IMG2,
       description: 'Interface moderna criada para batedor de pontos com diversas funcionalidades como, autenticação JWT, cadastro de colaboradores, cadastro de administradores, opções de bater pontos de Entrada, pausas e saida, relatórios e dashboard de acompanhamento.',
@@ -59,7 +82,7 @@ const Portfolio = () => {
       github: 'https://github.com/TiagoOliverDev/frontend_control_point',
     },
     {
-      id: 5,
+      id: 7,
       title: 'Intranet contábil',
       img: IMG5,
       description:
@@ -75,6 +98,26 @@ const Portfolio = () => {
   const backendProjects = [
     {
       id: 1,
+      title: 'Sistema de gerenciamento TODO',
+      img: IMG16,
+      description:
+        'Sistema desenvolvido com intuito de gerenciar tarefas',
+      technologies: 'Python | Django | HTML5 | Css | Unitest',
+      link: '#',
+      github: 'https://github.com/TiagoOliverDev/lizie',
+    },
+    {
+      id: 2,
+      title: 'Backend do sistema de gerenciamento para setor de vendas',
+      img: IMG17,
+      description:
+        'Backend desenvolvido com boas práticas utilizando FastApi com Python para',
+      technologies: 'Python | FastApi | Unitest | Sqlite | SQLAlchemy | Uvicorn | Swagger',
+      link: '#',
+      github: 'https://github.com/TiagoOliverDev/ps_backend_logap',
+    },
+    {
+      id: 3,
       title: 'Backend do Gestor de Pontos',
       img: IMG7,
       description:
@@ -84,7 +127,7 @@ const Portfolio = () => {
       github: 'https://github.com/TiagoOliverDev/backend_pontos',
     },
     {
-      id: 2,
+      id: 4,
       title: 'Web scraping de notíciais contabéis',
       img: IMG4,
       description:
@@ -94,7 +137,7 @@ const Portfolio = () => {
       github: 'https://github.com/TiagoOliverDev/Desafio-Web-Scraping',
     },
     {
-      id: 3,
+      id: 5,
       title: 'Web scraping ODDS',
       img: IMG8,
       description: 'Web scraping realizado no intuito de trazer as últimas ODDS do NBA de um site de apostas americano, o https://veri.bet/odds-picks?filter=upcoming',
@@ -103,7 +146,7 @@ const Portfolio = () => {
       github: 'https://github.com/TiagoOliverDev/Web-Scraping-Task',
     },
     {
-      id: 4,
+      id: 6,
       title: 'Automação UVT',
       img: IMG9,
       description:
@@ -113,7 +156,7 @@ const Portfolio = () => {
       github: '#',
     },
     {
-      id: 5,
+      id: 7,
       title: 'Automação "Resumo mensal de funcionários"',
       img: IMG10,
       description:
@@ -123,7 +166,7 @@ const Portfolio = () => {
       github: '#',
     },
     {
-      id: 6,
+      id: 8,
       title: 'Automação "Extrato mensal"',
       img: IMG11,
       description:
@@ -133,7 +176,7 @@ const Portfolio = () => {
       github: '#',
     },
     {
-      id: 7,
+      id: 9,
       title: 'Automação "Recibo de pagamento"',
       img: IMG12,
       description:
@@ -143,7 +186,7 @@ const Portfolio = () => {
       github: '#',
     },
     {
-      id: 8,
+      id: 10,
       title: 'Automação "Provisão de férias"',
       img: IMG13,
       description:
@@ -153,7 +196,7 @@ const Portfolio = () => {
       github: '#',
     },
     {
-      id: 9,
+      id: 11,
       title: 'Automação "Sangue Suga"',
       img: IMG14,
       description:
