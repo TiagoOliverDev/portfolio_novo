@@ -111,7 +111,7 @@ const Portfolio = () => {
       title: 'Backend do sistema de gerenciamento para setor de vendas',
       img: IMG17,
       description:
-        'Backend desenvolvido com boas práticas utilizando FastApi com Python para',
+        'Backend desenvolvido com boas práticas utilizando FastApi com Python.',
       technologies: 'Python | FastApi | Unitest | Sqlite | SQLAlchemy | Uvicorn | Swagger',
       link: '#',
       github: 'https://github.com/TiagoOliverDev/ps_backend_logap',
