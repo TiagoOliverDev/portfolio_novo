@@ -59,7 +59,7 @@ const Portfolio = () => {
       description:
         'Site de divulgação da minha ideia de empreendedorismo',
       technologies: 'JavaScript | CSS | PHP',
-      link: 'https://robotic.adahost.site/',
+      link: 'https://robotic.adaupsoft.com/',
       github: '#',
     },
     {
