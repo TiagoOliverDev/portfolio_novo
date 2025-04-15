@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
-import ME from '../../assets/eueu.jpg';
+import ME from '../../assets/eu25.jpeg';
 import './intro.css';
 
 const Intro = () => {
@@ -28,28 +28,16 @@ const Intro = () => {
               <small>+30 Projetos completos</small>
             </article>
           </div>
-          <p>Me chamo Tiago, formado em Análise e desenvolvimento de sistemas com mais de 4 anos de experiência no ramo de desenvolvimento de software, segue abaixo um pouco das minhas experiências.
-          <br/>
-          <br/>
-          Experiência com desenvolvimento backend utilizando Python (Flask, FastApi e Django)
-          <br/>
-          Experiência utilizando Python em projetos de análise de dados complexos para área de petróleo.
-          <br/>
-          Experiência com desenvolvimento de sistemas de contabilidade.
-          <br/>
-          Experiência desenvolvendo automações de processos RPA com Python (Selenium e Playwright)
-          <br/>
-          Experiência com container Docker.
-          <br/>
-          Experiência com desenvolvimento C# e Java.
-          <br/>
-          Experiência liderando refatoração e criação de sistemas construídos em React/Next. 
-          <br/>
-          Experiência com administração e criação de bancos de dados.
-          <br/>
-          Experiência com metodologias ágeis (SCRUM).
-          <br/>
-          Experiência com implementação de design partners.
+          <p>Me chamo Tiago, formado em Análise e desenvolvimento de sistemas e sou
+          Desenvolvedor backend com sólida experiência em Python, especializado em
+          automação de processos, desenvolvimento de APIs RESTful e integração com LLMs
+          (OpenAI, Hugging Face). Atuação em setores como contabilidade, petróleo e política.
+          Experiência com FastAPI, Flask, Docker, PostgreSQL, AWS (EC2, RDS, S3, CloudWatch)
+          e Git. Conhecimento prático em testes automatizados, SCRUM, e boas práticas de
+          código. Atualmente, aprofundando conhecimentos em IA aplicada, Data Science e
+          agentes inteligentes com foco em LangChain, CrewAI e arquitetura RAG,
+          desenvolvendo aplicações que conectam LLMs a dados externos com fluxos em
+          Python.
 
           </p>
           <a href="#contact" className="btn btn-primary">Contate-me</a>
