@@ -9,6 +9,18 @@ const Index = () => {
 const projects = {
   'Engenharia de Dados': [
     {
+      title: '📞 Pipeline ETL - Índice de Desempenho no Atendimento (IDA)',
+      description: 'Pipeline ETL para extração, transformação e carga dos dados do Índice de Desempenho no Atendimento (IDA) das operadoras de telecomunicações, garantindo normalização, integração e persistência em Data Mart.',
+      technologies: ['Python', 'Pandas', 'Apache Airflow', 'PostgreSQL', 'ETL', 'Doekcer', 'Modelo Estrela'],
+      status: 'Concluído'
+    },
+    {
+      title: '⛽ Pipeline de Dados de Revendedores de Combustíveis (ANP)',
+      description: 'Pipeline em desenvolvimento que consome a API oficial da ANP para captura de dados de revendedores de combustíveis, realizando tratamento, armazenamento em banco de dados e disponibilização para análise via dashboards.',
+      technologies: ['Python', 'Pandas', 'PostgreSQL', 'ETL', 'APIs'],
+      status: 'Em desenvolvimento'
+    },
+    {
       title: '📡 Pipeline de Streaming de Voos em Tempo Real',
       description: 'Pipeline completo para captura, processamento e armazenamento de dados de voos em tempo real, utilizando Apache Kafka, Spark Structured Streaming, Airflow, Python e Docker.',
       technologies: ['Python', 'Apache Kafka', 'Spark Structured Streaming', 'Apache Airflow', 'Docker'],
@@ -34,6 +46,12 @@ const projects = {
     }
   ],
   'IA / LLMs': [
+    {
+    title: '🤖 Assistente Conversacional Institucional - API, OpenAI + Python',
+    description: 'Projeto modular que utiliza a OpenAI API para criar um assistente conversacional em português, respeitando uma base de conhecimento institucional. O assistente gera respostas em diferentes modos (default, curta, explicativa, formal), limita-se à base de conhecimento institucional, mantém histórico de interações em SQLite e registra logs detalhados de prompts, tokens e tempos de resposta.',
+    technologies: ['Python', 'OpenAI', 'SQLite', 'FastApi', 'Pydantic'],
+    status: 'Concluído'
+    },
     {
       title: '📊 Log Assistant com IA (LangChain + RAG)',
       description: 'Assistente inteligente para análise de arquivos `.log` e `.txt`. Use linguagem natural para obter respostas contextuais via IA generativa com RAG e LangChain.',
@@ -75,6 +93,12 @@ const projects = {
   ],
   'Backend': [
     {
+    title: '📡 API para Orquestração de Pipelines e Bots',
+    description: 'API desenvolvida em FastAPI e Pydantic que monitora uma fila SQS (AWS) para receber solicitações de execução de pipelines e bots, gerenciando sua orquestração em uma infraestrutura local.',
+    technologies: ['Python', 'FastAPI', 'Pydantic', 'AWS SQS', 'Docker'],
+    status: 'Concluído'
+    },
+    {
       title: '🖥️ Intranet Contábil - Central de Robôs',
       description: 'Sistema web interno para gestão e acionamento de automações RPA por múltiplos usuários.',
       technologies: ['Python', 'Flask', 'Bootstrap', 'PostgreSQL'],
@@ -95,19 +119,20 @@ const projects = {
       institution: 'Universidade Potiguar (UNP)',
       period: '2019 - 2022',
       status: 'Concluído',
-      description: 'Formação sólida em algoritmos, estruturas de dados, programação e sistemas.'
+      description: 'Formação abrangente em algoritmos, estruturas de dados, programação e sistemas, com foco em desenvolvimento backend, bancos de dados relacionais e não relacionais, metodologias ágeis (Scrum, Kanban), padrões de projeto e gestão de projetos. Experiência prática em integração de sistemas, boas práticas de engenharia de software e aplicação de conceitos modernos de arquitetura de software.'
     },
-    {
-      degree: 'Engenharia de Dados com Inteligência Artificial',
-      institution: 'Asimov Academy',
-      period: '2025 - Atual',
-      status: 'Em andamento',
-      description: 'Curso avançado integrando técnicas de IA com engenharia de dados moderna.'
-    }
+    // {
+    //   degree: 'Engenharia de Dados com Inteligência Artificial',
+    //   institution: 'Asimov Academy',
+    //   period: '2025 - Atual',
+    //   status: 'Em andamento',
+    //   description: 'Curso avançado integrando técnicas de IA com engenharia de dados moderna.'
+    // }
   ];
 
 const certifications = [
-  'Engenharia de Dados e IA – Asimov Academy (em andamento)',
+  'Desenvolvimento de agentes inteligentes com IA – Asimov Academy (em andamento)',
+  'Engenharia de Dados – Asimov Academy',
   'Pythonista Autodidata – Dev Aprender',
   'Curso Full Stack e Banco de Dados – Danki Code',
   'Lógica de Programação e Java – JDev Treinamentos',
@@ -120,7 +145,7 @@ const certifications = [
   };
 
   const openWhatsApp = () => {
-    const phoneNumber = '5584991046538'; // Substitua pelo seu número
+    const phoneNumber = '5584992242471'; // Substitua pelo seu número
     const message = 'Olá! Vi seu portfólio e gostaria de conversar sobre uma oportunidade.';
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
@@ -155,7 +180,7 @@ const certifications = [
               </h2>
               <p className="text-xl mb-8 text-gray-300 leading-relaxed">
                   Especialista em Python Backend com foco em Engenharia de Dados e Inteligência Artificial.
-                  Atuo no desenvolvimento de APIs, automações RPA e soluções escaláveis com Python. Estou em formação contínua como engenheiro de dados, trabalhando com pipelines ETL, Apache Airflow e integração de LLMs (LangChain, RAG, CrewAI) para construir aplicações inteligentes e automatizadas de ponta a ponta.
+                  Atuo no desenvolvimento de APIs, automações RPA e soluções escaláveis com Python. Estou em formação contínua como Engenheiro de Dados, trabalhando com pipelines ETL/ELT, DBT, AWS Glue, Apache Airflow e integração de LLMs (LangChain, Agno, CrewAI) para construir aplicações inteligentes e automatizadas de ponta a ponta.
               </p>
               <div className="flex gap-4">
                 <Button onClick={() => scrollToSection('projetos')} className="bg-gold hover:bg-gold-light text-navy-dark font-semibold">
@@ -199,18 +224,16 @@ const certifications = [
                 Analista desenvolvedor com sólida experiência em Python, especializado em automação 
                 de processos (RPA), desenvolvimento de APIs RESTful e integração com LLMs (OpenAI, 
                 Hugging Face). Atuação nos setores de contabilidade, petróleo e política, com 
-                experiência prática em FastAPI, Flask, Docker, PostgreSQL, AWS (EC2, RDS, S3, 
-                CloudWatch) e Git. Forte conhecimento em testes automatizados, metodologias ágeis 
+                experiência prática em FastAPI, Flask, Docker, PostgreSQL, AWS (EC2, ECS, RDS, S3, 
+                CloudWatch, GLUE), CI/CD e Git. Forte conhecimento em testes automatizados, metodologias ágeis 
                 (Scrum) e boas práticas de desenvolvimento. 
               </p>
               <p className="text-lg mb-8 text-gray-300 leading-relaxed">
                 Atualmente, estou aprofundando conhecimentos em Engenharia de Dados, com foco 
-                em pipelines de dados, ETL, Apache Airflow, PySpark e arquitetura escalável de dados. 
-                Também venho explorando agentes inteligentes com IA, utilizando LangChain, CrewAI 
+                em pipelines de dados, ETL/ELT, Apache Airflow, DBT, PySpark e arquitetura escalável de dados. 
+                Também venho explorando agentes inteligentes com IA, utilizando LangChain, CrewAI, Agno
                 e RAG (Retrieval-Augmented Generation) para integrar LLMs a dados externos e 
-                orquestrar fluxos inteligentes em Python — ampliando a capacidade das automações e 
-                pipelines que desenvolvo. Disponivel para inicio imediado nas áreas de Engenharia de 
-                dados, automações RPA ou Backend em geral. 
+                orquestrar fluxos inteligentes em Python. 
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
@@ -225,9 +248,17 @@ const certifications = [
             </div>
             <div className="grid grid-cols-2 gap-4">
                 {[
-                  'Python', 'FastAPI', 'Flask', 'Airflow', 'PySpark', 
-                  'PostgreSQL', 'Docker', 'AWS', 'Git', 'Pandas', 'Linux',
-                  'Selenium', 'Next.js', 'Keras', 'LangChain', 'CrewAI'
+                // Engenharia de Dados (primeiro)
+                'AWS Glue', 'DBT', 'Airflow', 'PySpark', 'Pandas', 'PostgreSQL',
+                'ETL/ELT Pipelines', 'Data Lake', 'Data Warehousing',  'SQL',
+                // Backend e APIs
+                'Python', 'FastAPI', 'Flask', 'Docker', 'AWS', 'Linux', 'Git',
+                // IA e Agentes
+                'LangChain', 'CrewAI', 'Agno', 'Keras',
+                // RPA e Automação
+                'Selenium', 'BotCity', 'Playwright', 'PyAutoGUI', 'Automação RPA',
+                // Frontend (secundário)
+                'React.js', 'Streamlit'
                 ].map((skill) => (
                 <div key={skill} className="bg-navy-dark p-4 rounded-lg text-center border border-gold/20 hover:border-gold/50 transition-colors hover:scale-105 duration-300">
                   <span className="font-semibold text-gold">{skill}</span>
@@ -287,17 +318,28 @@ const certifications = [
                   <div className="w-12 h-12 bg-gold rounded-full flex items-center justify-center mr-4">
                     <Brain className="h-6 w-6 text-navy-dark" />
                   </div>
-                  <div>
-                    <CardTitle className="text-gold text-xl">Estudos Atuais em Destaque</CardTitle>
-                    <CardDescription className="text-gray-300">Engenharia de Dados com Inteligência Artificial</CardDescription>
-                  </div>
+                <div>
+                  <CardTitle className="text-gold text-xl">Estudos Atuais em Destaque</CardTitle>
+                  <CardDescription className="text-gray-300">Engenharia de Dados e Desenvolvimento de Agentes de IA</CardDescription>
+                </div>
                 </div>
                 <div className="bg-navy-dark p-4 rounded-lg border border-gold/20">
                   <p className="text-gray-300 leading-relaxed">
-                    Atualmente cursando especialização avançada que combina técnicas modernas de engenharia de dados 
-                    com inteligência artificial, incluindo MLOps, pipelines de machine learning, processamento em tempo real 
-                    e arquiteturas de dados para IA. Este curso está me permitindo integrar cutting-edge AI/ML workflows 
-                    com infraestruturas robustas de dados.
+                    Atualmente aprofundando minha formação em duas trilhas estratégicas:
+                    <br /><br />
+                    <span className="text-gold font-semibold">🔹 Trilha de Engenharia de Dados – Escola EIA (586h):</span> 
+                    Formação completa cobrindo fundamentos e práticas avançadas em pipelines ETL/ELT, Data Lake e Data Warehouse, 
+                    processamento distribuído com PySpark, modelagem de dados, DBT, Pandas, SQL avançado e 
+                    arquiteturas em múltiplas nuvens (AWS, GCP e Azure). Inclui também tópicos de MLOps, 
+                    orquestração e integração com infraestruturas escaláveis.
+                    <br /><br />
+                    <span className="text-gold font-semibold">🔹 Desenvolvimento de Agentes de IA – Asimov Academy:</span> 
+                    Curso especializado em criação de agentes inteligentes utilizando LangChain, CrewAI e Agno, 
+                    com foco em RAG (Retrieval Augmented Generation), automações inteligentes e integração de 
+                    LLMs em aplicações backend e pipelines de dados.
+                    <br /><br />
+                    Essa combinação me permite unir o domínio de engenharia de dados com aplicações práticas 
+                    de IA, desenvolvendo soluções ponta a ponta que integram dados, automação e inteligência artificial.
                   </p>
                 </div>
               </CardHeader>
@@ -406,7 +448,7 @@ const certifications = [
                   </div>
                   <div>
                     <p className="font-semibold text-gold">Telefone (Whats)</p>
-                    <p className="text-gray-300">+55 (84) 99104-6538</p>
+                    <p className="text-gray-300">+55 (84) 99224-2471</p>
                   </div>
                 </div>
                 
